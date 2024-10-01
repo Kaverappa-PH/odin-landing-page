@@ -119,3 +119,40 @@ ul {
   align-self: flex-end;
   font-weight: 500;
 }
+
+.signup {
+  padding: 25px 30%;
+  color: white;
+}
+
+.signup .wrapper {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 20px 50px;
+}
+
+.signup-text {
+  font-size: 10px;
+  color: rgb(211, 211, 211);
+}
+
+.signup button {
+  border: 2px solid white;
+  padding: 5px 23px;
+  border-radius: 0.4rem;
+  background-color: #3882f6;
+  color: white;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
